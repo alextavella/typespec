@@ -12,3 +12,9 @@ npx tsp init
 pnpm install
 pnpm compile
 ```
+
+## Running
+
+```bash
+pnpm dev
+```
