@@ -5,17 +5,18 @@
   "peerDependencies": {
     "@typespec/compiler": "latest",
     "@typespec/http": "latest",
-    "@typespec/rest": "latest",
-    "@typespec/openapi3": "latest"
+    "@typespec/openapi3": "latest",
+    "@typespec/rest": "latest"
   },
   "devDependencies": {
     "@typespec/compiler": "latest",
     "@typespec/http": "latest",
-    "@typespec/rest": "latest",
-    "@typespec/openapi3": "latest"
+    "@typespec/openapi3": "latest",
+    "@typespec/rest": "latest"
   },
   "private": true,
   "scripts": {
-    "compile": "tsp compile ."
+    "compile": "tsp compile .",
+    "dev": "tsp compile . --watch"
   }
 }
